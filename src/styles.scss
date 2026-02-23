@@ -1,0 +1,15 @@
+html{
+    background-image: url(../public/Background\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+  html {
+    background-image: url(../public/Background\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}

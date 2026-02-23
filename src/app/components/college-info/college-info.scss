@@ -1,0 +1,77 @@
+.college-info {
+    padding: 20px;
+    p {
+        text-align: center;
+        font-size: 1.2em;
+        
+        
+    }
+
+    img {
+        width: 70%;
+        max-height: 200px;
+        margin: 10px auto;
+        
+    }
+    
+    .purdue-info {
+        
+        border-radius: 30px;
+        justify-self: center;
+        align-content: center;
+        font-family: 'Source Serif Pro', serif;
+        color: #000000;
+        background-color: #cfb991;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 10px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+
+        &:hover {
+            color: #ddb945;
+            transform: translateY(-2px);
+            background-color: #555960;
+        }
+    }
+
+    .ivy-tech-info {
+        border-radius: 30px;
+        justify-self: center;
+        align-content: center;
+        font-family: 'Source Serif Pro', serif;
+        color: #918f90;
+        background-color: #006648;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 10px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+
+        &:hover {
+            color: #FFFFFF;
+            transform: translateY(-2px);
+            background-color: #006648;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+  .college-info {
+    padding: 5px;
+    img {
+      width: 50%;
+      max-height: none;
+    }
+
+    .purdue-info, .ivy-tech-info {
+      font-size: 1.5em;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.55);
+    }
+}
+
+    .purdue-info:hover, .ivy-tech-info:hover {
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.55);
+        transform: translateY(-2px);
+    }
+}
